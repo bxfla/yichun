@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hy.powerplatform"
+    android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT" />
+
+    <application
+        android:name="com.hy.powerplatform.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoAction">
+        <activity android:name="com.hy.powerplatform.login.activity.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hy.powerplatform.login.activity.LoginActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.hy.powerplatform.login.activity.MainActivity" />
+        <activity android:name="com.hy.powerplatform.oaflow.OAFlowListActivity" />
+        <activity android:name="com.hy.powerplatform.oaflow.activity.NoticeActivity" />
+        <activity android:name="com.hy.powerplatform.oaflow.activity.metting.MettingListActivity" />
+        <activity android:name="com.hy.powerplatform.oaflow.activity.oa.OAListActivity" />
+        <activity android:name="com.hy.powerplatform.human.HuManListActivity" />
+        <activity android:name="com.hy.powerplatform.operation.OperationListActivity" />
+        <activity android:name="com.hy.powerplatform.repair.RepairListActivity" />
+        <activity android:name="com.hy.powerplatform.material.MaterialListActivity" />
+        <activity android:name="com.hy.powerplatform.safer.SaferListActivity" />
+        <activity android:name="com.hy.powerplatform.statist.StatistListActivity" />
+        <activity android:name="com.hy.powerplatform.comper.ComperListActivity" />
+        <activity android:name="com.hy.powerplatform.statist.activity.PersonTongJiActivity" />
+        <activity android:name="com.hy.powerplatform.comper.activity.YingYunZBActivity"></activity>
+    </application>
+
+</manifest>

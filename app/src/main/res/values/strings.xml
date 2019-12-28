@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">公交ERP信息管理系统</string>
+    <string name="title_tips">提示</string>
+    <string name="title_tips_confim">确定</string>
+    <string name="title_tips_cancel">取消</string>
+    <string name="login">登录</string>
+    <string name="login_name">请输入账号</string>
+    <string name="login_pwd">请输入密码</string>
+    <string name="no_open">功能暂未开通，敬请期待</string>
+    <string name="app_header">宜春公交ERP信息管理系统</string>
+    <string name="company_name">宜春公交集团有限公司</string>
+    <string name="welcome_user_app">欢迎使用宜春公交ERP信息管理系统</string>
+
+    <string name="fragment_rb1">协同办公</string>
+    <string name="fragment_rb2">人力资源</string>
+    <string name="fragment_rb3">营运管理</string>
+    <string name="fragment_rb4">维修管理</string>
+    <string name="fragment_rb5">物资管理</string>
+    <string name="fragment_rb6">服务管理</string>
+    <string name="fragment_rb7">统计分析</string>
+    <string name="fragment_rb8">综合查询</string>
+
+    <string name="oaflow_rb1">公告查询</string>
+    <string name="oaflow_rb2">会议管理</string>
+    <string name="oaflow_rb3">流程审批</string>
+    <string name="oaflow_rb4">通讯录</string>
+
+    <string name="oaflow_metting_rb1">待开会议</string>
+    <string name="oaflow_metting_rb2">会议审核</string>
+
+    <string name="oaflow_oa_rb1">流程发起</string>
+    <string name="oaflow_oa_rb2">代办流程</string>
+    <string name="oaflow_oa_rb3">已办流程</string>
+    <string name="oaflow_oa_rb4">部门流程</string>
+    <string name="oaflow_oa_rb5">追回确认</string>
+    <string name="oaflow_oa_rb6">督办任务</string>
+
+    <string name="oaflow_human_rb1">应聘人员</string>
+    <string name="oaflow_human_rb2">实习驾驶员</string>
+    <string name="oaflow_human_rb3">正式员工</string>
+
+    <string name="oaflow_operation_rb1">车辆档案</string>
+    <string name="oaflow_operation_rb2">线路查询</string>
+
+    <string name="oaflow_repair_rb1">车辆维修</string>
+    <string name="oaflow_repair_rb2">线路保养</string>
+
+    <string name="oaflow_material_rb1">材料库存</string>
+    <string name="oaflow_material_rb2">进出确认</string>
+
+    <string name="oaflow_safer_rb1">违章查询</string>
+    <string name="oaflow_safer_rb2">事故档案</string>
+
+    <string name="oaflow_statist_rb1">人员统计</string>
+    <string name="oaflow_statist_rb2">人员变动</string>
+    <string name="oaflow_statist_rb3">年度里程</string>
+    <string name="oaflow_statist_rb4">成本对比</string>
+    <string name="oaflow_statist_rb5">汇总占比</string>
+    <string name="oaflow_statist_rb6">材料消耗</string>
+    <string name="oaflow_statist_rb7">人员变动</string>
+    <string name="oaflow_statist_rb8">人员汇总</string>
+    <string name="oaflow_statist_rb9">月度异常</string>
+    <string name="oaflow_statist_rb10">月度违规</string>
+    <string name="oaflow_statist_rb11">营运收入</string>
+
+    <string name="oaflow_comper_rb1">生产营运</string>
+    <string name="oaflow_comper_rb2">营运指标</string>
+</resources>
